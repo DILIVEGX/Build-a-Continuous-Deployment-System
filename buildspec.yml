@@ -2,6 +2,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - zip -r site.zip *
+      - zip -r site.zip * -x appspec.yml
 artifacts:
-  files: site.zip
+  files:
+    - appspec.yml
+    - site.zip
