@@ -2,7 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Build done"
+      - echo "Build completed, ready for CodeDeploy"
 artifacts:
   files:
     - appspec.yml
