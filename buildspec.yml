@@ -2,8 +2,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - zip -r site.zip * -x appspec.yml
+      - echo "Build completado, listo para CodeDeploy"
 artifacts:
   files:
     - appspec.yml
-    - site.zip
+    - **/*
